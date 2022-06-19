@@ -12,6 +12,7 @@ const prompts = [
   ["hom nay thoi tiet nhu nao"],
   ["bay gio la may gio"],
   ["ban an com chua"],
+  ["yeu anh khong"]
 ]
   
 const replies = [
@@ -20,7 +21,8 @@ const replies = [
   ["Tớ tên là BOT của Công"],
   ["Hôm nay là một ngày trời nắng to, nên bạn ra đường mang áo dài tay nhé!"],
   ["Tôi không biết"],
-  ["Tôi ăn rồi, còn bạn?"]
+  ["Tôi ăn rồi, còn bạn?"],
+  ["yêu cái địt mẹ này"]
 
 ];
 const alternative = [
