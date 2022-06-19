@@ -4,71 +4,28 @@ const msgerChat = get(".msger-chat");
 const BOT_IMG = "bot.png";
 const PERSON_IMG = "user.png";
 const BOT_NAME = "BOT";
-const PERSON_NAME = "Coderider";
+const PERSON_NAME = "Bạn";
 const prompts = [
-  ["hi", "hey", "hello", "good morning", "good afternoon"],
-  ["how are you", "how is life", "how are things"],
-  ["what are you doing", "what is going on", "what is up"],
-  ["how old are you"],
-  ["who are you", "are you human", "are you bot", "are you human or bot"],
-  ["who created you", "who made you"],
-  [
-    "your name please",
-    "your name",
-    "may i know your name",
-    "what is your name",
-    "what call yourself"
-  ],
-  ["i love you"],
-  ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
-  ["bad", "bored", "tired"],
-  ["help me", "tell me story", "tell me joke"],
-  ["ah", "yes", "ok", "okay", "nice"],
-  ["bye", "good bye", "goodbye", "see you later"],
-  ["what should i eat today"],
-  ["bro"],
-  ["what", "why", "how", "where", "when"],
-  ["no", "not sure", "maybe", "no thanks"],
-  [""],
-  ["haha", "ha", "lol", "hehe", "funny", "joke"]
+  ["hi", "hey", "hello","xin chao"],
+  ["chao buoi sang"],
+  ["ban ten la gi"],
+  ["hom nay thoi tiet nhu nao"],
+  ["bay gio la may gio"],
+  ["ban an com chua"],
 ]
+  
 const replies = [
-  ["Hello!", "Hi!", "Hey!", "Hi there!", "Howdy"],
-  [
-    "Fine... how are you?",
-    "Pretty well, how are you?",
-    "Fantastic, how are you?"
-  ],
-  [
-    "Nothing much",
-    "About to go to sleep",
-    "Can you guess?",
-    "I don't know actually"
-  ],
-  ["I am infinite"],
-  ["I am just a bot", "I am a bot. What are you?"],
-  ["The one true God, JavaScript"],
-  ["I am nameless", "I don't have a name"],
-  ["I love you too", "Me too"],
-  ["Have you ever felt bad?", "Glad to hear it"],
-  ["Why?", "Why? You shouldn't!", "Try watching TV"],
-  ["What about?", "Once upon a time..."],
-  ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
-  ["Bye", "Goodbye", "See you later"],
-  ["Sushi", "Pizza"],
-  ["Bro!"],
-  ["Great question"],
-  ["That's ok", "I understand", "What do you want to talk about?"],
-  ["Please say something :("],
-  ["Haha!", "Good one!"]
+  ["Xin chào bạn"],
+  ["xin chào bạn, chúc bạn buổi sáng tốt lành"],
+  ["Tớ tên là BOT của Công"],
+  ["Hôm nay là một ngày trời nắng to, nên bạn ra đường mang áo dài tay nhé!"],
+  ["Tôi không biết"],
+  ["Tôi ăn rồi, còn bạn?"]
+
 ];
 const alternative = [
-  "Same",
-  "Go on...",
-  "Bro...",
-  "Try again",
-  "I'm listening...",
-  "I don't understand :/"
+ 
+  "Tôi không hiểu bạn đang nói gì"
 ]
 const robot = ["How do you do, fellow human", "I am not a bot"];
 msgerForm.addEventListener("submit", event => {
