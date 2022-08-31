@@ -6,6 +6,7 @@ const PERSON_IMG = "user.png";
 const BOT_NAME = "BOT";
 const PERSON_NAME = "Bạn";
 const prompts = [
+  ["co kieu anh beo"],
   ["hi", "hey", "hello","xin chao"],
   ["chao buoi sang"],
   ["ban ten la gi"],
@@ -16,6 +17,7 @@ const prompts = [
 ]
   
 const replies = [
+  ["Cô Kiều Anh vô cùng béo"],
   ["Xin chào bạn"],
   ["xin chào bạn, chúc bạn buổi sáng tốt lành"],
   ["Tớ tên là BOT của Công"],
